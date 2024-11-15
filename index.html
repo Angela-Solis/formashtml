@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Pizzeria DEBF </h1>
+    <br>
+    <h2> Favor de ingresar los siguientes datos</h2>
+    <form>
+        <label for="name"> Nombre: </label>  
+        <input          
+           type="text"
+           name="name"
+           placeholder="ingresa tu nombre"
+           minlength="2"
+           maxlength="20"
+           required
+        />
+        <br>
+        <br>
+
+        <label for="correo"> E-Mail: </label>  
+        <input          
+           type="email"
+           name="correo"
+           placeholder="ingresa tu Correo Electrónico"
+           minlength="2"
+           maxlength="50"
+           required
+        />
+        <br>
+        <br>
+    
+        <label for="dirección"> Dirección: </label>  
+        <input          
+           type="text"
+           name="dirección"
+           placeholder="ingresa tu dirección"
+           minlength="2"
+           maxlength="40"
+           required
+        />
+        <br>
+        <br>
+        <label for="hora_entrega"> Hora de entrega: </label>  
+        <input
+           type="time"
+           name="hora_entrega"
+           placeholder="ingresa hora"
+           required
+        >  
+        <br>
+        <br>
+        <label for="Pizza"> Selecciona tu Pizza: </label>  
+        <select name="Pizza"Seleccione el tipo de pizza que desea">
+            <option value="napolitana">Pizza Napolitana</option>
+            <option value="Pizza 2">Pizza Pepperoni</option>
+            <option value="vegana">Pizza Vegana</option>
+            <option value="quesos">Pizza 4 quesos</option>
+        </select>
+        <br>
+        <br>
+        <input
+           type="submit"
+           value="enviar pedido"
+        >
+       '' <button>Enviar Pedido</button>
+    </form>  
+</body>
+</html>
